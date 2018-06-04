@@ -169,6 +169,7 @@ a:hover, a:focus, a:active {
 
 .photography {
   display: flex;
+  margin: auto;
 }
 
 .photography-img-container {
