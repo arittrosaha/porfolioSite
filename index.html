@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
@@ -29,7 +30,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Aritra Saha</span>
+        <span class="d-block d-lg-none">
+          Aritra Saha
+        </span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpeg" alt="">
         </span>
@@ -110,24 +113,83 @@
               <h3 class="mb-0">Definitely Not Instagram</h3>
               <div class="subheading mb-3">A single page web application inspired by Instagram</div>
               <li class="project-li">
-                Created security through custom back-end session authentication system built with the BCrypt gem.
+                Stack: Ruby on Rails, PostgreSQL, React, Redux, JS-ES6, HTML5, CSS3, AWS, Heroku.
+              </li>
+              <li class='project-li'>
+                Built security through custom back-end session authentication system with the BCrypt gem.
               </li>
               <li class="project-li">
-                Implemented Rails polymorphic associations for likes on posts and comments, and eager loaded associated data.
+                Implemented Rails polymorphic associations for likes on posts and comments, and eager loaded associated data to minimize AJAX queries.
               </li>
               <li class="project-li">
-                Configured Paperclip gem for image uploading and stored uploads on Amazon Web Services S3 while saving references as attachments in PostgreSQL database.
+                Integrated Paperclip gem for image uploading and stored uploads on AWS S3 while saving their references in PostgreSQL database.
               </li>
               <li class="project-li">
-                Improved code maintainability and scalability by creating reusable, DRY React components.
+                Optimized code by creating reusable, DRY React components to improve maintainability and scalability.
               </li>
-              <li class="project-li">
-                Utilized Redux and jBuilder to prefetch data and send JSON response, respectively, to minimize database queries.
+              <li class="project-li last">
+                Utilized Redux and jBuilder to store fetched data and send backend JSON response, respectively.
               </li>
+
             </div>
+
             <div class="resume-date text-md-right">
-              <a href="https://github.com/arittrosaha/DefinitelyNotInstagram">Git</a> | 
+              <a href="https://github.com/arittrosaha/DefinitelyNotInstagram">Git</a> |
               <a href="https://definitely-not-instagram.herokuapp.com/">Live</a>
+
+              <div class="project-img-container">
+                <img class="project-img" src="./img/definitelynotinstagram.png">
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">"A Mazing" Game</h3>
+              <div class="subheading mb-3">A algorithm based maze game</div>
+              <li class="project-li">
+                Stack: JS-ES5, HTML5, CSS3, Canvas
+              </li>
+              <li class="project-li">
+                Utilizes HTML5 Canvas for pixel-level render of maze generation and solution algorithms.
+              </li>
+              <li class="project-li">
+                Performs dynamic DOM manipulation with vanilla ES5 JavaScript.
+              </li>
+              <li class="project-li">
+                Built a customized algorithm to calculate the 2D position of a node in a 1D array.
+              </li>
+              <li class="project-li last">
+                Used DFS to generate map and DFS and BFS to solve generated maps.
+              </li>
+
+            </div>
+
+            <div class="resume-date text-md-right">
+              <a href="https://github.com/arittrosaha/A-Mazing-Game">Git</a> |
+              <a href="https://arittrosaha.github.io/A-Mazing-Game/">Live</a>
+
+              <div class="project-img-container">
+                <img class="project-img" src="./img/amazegame.png">
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">AQuery</h3>
+              <div class="subheading mb-3">JavaScript DOM Manipulation lightweight Library inspired by jQuery</div>
+              <li class="project-li">
+                Stack: JS-ES6
+              </li>
+              <li class="project-li last">
+                Applied native DOM API to control core DOM manipulation, AJAX requests and event handling.
+              </li>
+
+            </div>
+
+            <div class="resume-date text-md-right">
+              <a href="https://github.com/arittrosaha/Aquery">Git</a>
             </div>
           </div>
 
@@ -141,24 +203,47 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 class="mb-0">App Academy</h3>
+              <div class="subheading mb-3">Software Engineering Boot Camp</div>
+              <li>
+                Software Engineer - Full-Stack Web Development Track
+              </li>
+              <li>
+                Rigorous 1150 hrs of software development curriculum with less than 5% acceptance rate.
+              </li>
+              <li class='last'>
+                Topics include: TDD, scalability, algorithms, OOP (classical & prototypal inheritance), metaprogramming, REST, CRUD, authentication, single-page apps, and web development best practices.
+              </li>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <span class="text-primary">March 2018 - June 2018</span>
+
+              <div class="project-img-container">
+                <img class="project-img" src="./img/appacademy.jpg">
+              </div>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">State University of New York at Albany</h3>
+              <div class="subheading mb-3">Bachelors of Science</div>
+              <li>
+                Nanoscale Engineering - specializing in Energy Applications and Biological Systems.
+              </li>
+              <li>
+                Double minors in Mathematics and Political Science.
+              </li>
+              <li class='last'>
+                Magna Cum Laude - GPA: 3.63
+              </li>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+              <span class="text-primary">September 2013 - June 2017</span>
+
+              <div class="project-img-container">
+                <img class="project-img" src="./img/sunyalbany.jpeg">
+              </div>
             </div>
           </div>
 
@@ -172,37 +257,40 @@
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
+              <i class="devicon-html5-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
+              <i class="devicon-css3-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
+              <i class="devicon-javascript-plain"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
+              <i class="devicon-jquery-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
+              <i class="devicon-nodejs-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
+              <i class="devicon-rails-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
+              <i class="devicon-ruby-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
+              <i class="devicon-postgresql-plain-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
+              <i class="devicon-react-original-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
+              <i class="devicon-heroku-original-wordmark"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
+              <i class="devicon-amazonwebservices-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon-git-plain-wordmark"></i>
             </li>
           </ul>
 
@@ -210,16 +298,16 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
+              Plan and Design</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
+              Develop, Test &amp; Debug</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
+              Refactor &amp; Improve</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+              Deploy &amp; Maintain</li>
           </ul>
         </div>
       </section>
@@ -227,42 +315,61 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <p>Apart from being a web developer, I enjoy photography, reading the news, biking, taking long walks with music in my ear, eat good food and binge watch Netflix</p>
+          <div class="photography">
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram1.jpg">
+            </div>
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram2.jpg">
+            </div>
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram3.jpg">
+            </div>
+          </div>
+          <div class='photography'>
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram4.jpg">
+            </div>
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram5.jpg">
+            </div>
+            <div class="photography-img-container">
+              <img class='photography-img' src="./img/instagram6.jpg">
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <h2 class="mb-5">Awards</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
+              Chancellor's Award for Student Excellence (SUNY) - April 5th, 2017
+              <li> - Top 250 students among 64 SUNY campuses</li>
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
+              NY Senate Resolution J945 (NY Senate) - March 7th, 2017
+              <li> - Resolution passed honoring me and my academic achievements</li>
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+              Presidential's Leadership Awards, Outstanding Senior (UAlbany) - April 2nd, 2017
+              <li> - University's top Award for a graduating Senior for leadership and academic achievements</li>
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+              Steller Capstone Research Project Award (CNSE) - February 28th, 2017
+              <li> - Emerging Tech Competition 2009</li>
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+              Valedictorian (Hillcrest High School) - June 2013
+            </li>
             <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
           </ul>
         </div>
       </section>
