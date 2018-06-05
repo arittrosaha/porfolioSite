@@ -182,3 +182,7 @@ a:hover, a:focus, a:active {
   height: 100%;
   object-fit: cover;
 }
+
+.favicon {
+  background-color: white;
+}
