@@ -1,3 +1,8 @@
+html {
+  max-width: 1500px;
+  margin: auto;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
@@ -103,6 +108,10 @@ h2 {
     display: block;
   }
 
+  .resume-date {
+    width: 33%;
+    height: max-content;
+  }
 }
 
 section.resume-section {
@@ -122,6 +131,7 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 33rem;
+    height: max-content;
   }
 }
 
@@ -160,7 +170,6 @@ a:hover, a:focus, a:active {
 
 .project-img {
   padding: 20px 0 20px 0;
-  height: 100%;
   width: 100%;
 }
 
@@ -170,6 +179,7 @@ a:hover, a:focus, a:active {
 
 .photography {
   display: flex;
+  justify-content: center;
 }
 
 .photography-img-container {
