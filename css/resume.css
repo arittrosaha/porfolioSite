@@ -37,11 +37,23 @@ h2 {
   font-size: 3.5rem;
 }
 
+h3 {
+  color: #BD5D38;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
+}
+
+.subheading2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+  color: #BD5D38;
 }
 
 .list-social-icons a {
@@ -169,8 +181,9 @@ a:hover, a:focus, a:active {
 }
 
 .project-img {
-  padding: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
   width: 100%;
+  border: 1px solid black;
 }
 
 .last {
