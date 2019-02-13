@@ -56,6 +56,12 @@ h3 {
   color: #BD5D38;
 }
 
+.subheading3 {
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+}
+
 .list-social-icons a {
   color: #495057;
 }
